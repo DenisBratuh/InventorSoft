@@ -50,6 +50,7 @@ public class Entity {
     }
 
     protected boolean canEqual(final Object other) {
+
         return other instanceof Entity;
     }
 
